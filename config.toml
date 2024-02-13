@@ -4,6 +4,7 @@ theme = "tokyonight_storm"
 #line-number = "relative"
 mouse = true
 color-modes = true
+bufferline = "always"
 
 [editor.cursor-shape]
 insert = "bar"
