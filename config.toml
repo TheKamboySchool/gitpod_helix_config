@@ -1,0 +1,23 @@
+theme = "tokyonight_storm"
+
+[editor]
+#line-number = "relative"
+mouse = true
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spacer", "version-control", "spacer", "file-type", "spacer", "diagnostics"]
+#center = ["file-name"]
+right = ["spinner", "selections", "position", "position-percentage", "spacer", "mode"]
+separator = "│"
+mode.normal = ""
+mode.insert = ""
+mode.select = ""
